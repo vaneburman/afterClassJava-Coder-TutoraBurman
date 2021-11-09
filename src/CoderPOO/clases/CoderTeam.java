@@ -20,4 +20,10 @@ public class CoderTeam {
     public void setEmpleados(List<Empleado> empleados) {
         this.empleados = empleados;
     }
+
+    public void correrJornadaLaboral(){
+        for(Empleado empleado : this.getEmpleados()){
+            empleado.trabajar();
+        }
+    }
 }

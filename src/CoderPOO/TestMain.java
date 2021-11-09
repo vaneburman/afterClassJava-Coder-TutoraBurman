@@ -103,9 +103,7 @@ public class TestMain {
         coderTeam.addEmpleado(tut1);
         coderTeam.addEmpleado(tut2);
 
-        for(Empleado empleado : coderTeam.getEmpleados()){
-            empleado.trabajar();
-        }
+        coderTeam.correrJornadaLaboral();
 
 
     }
